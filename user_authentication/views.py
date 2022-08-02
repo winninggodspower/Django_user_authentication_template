@@ -16,6 +16,8 @@ from django.utils.http import urlsafe_base64_encode
 from django.contrib.auth.tokens import default_token_generator
 from django.utils.encoding import force_bytes
 
+from django.conf import settings
+
 # importing the use model
 from django.contrib.auth import get_user_model
 User = get_user_model()
@@ -102,12 +104,12 @@ def password_reset_request(request):
                     email_template_name = "password/password_reset_email.txt"
                     email_content = {
                     "email":user.email,
-                    'domain':'127.0.0.1:8000',
-                    'site_name': 'Website',
+                    'domain': settings.DOMAIN,
+                    'site_name': settings.SITE_NAME,
                     "uid": urlsafe_base64_encode(force_bytes(user.pk)),
                     "user": user,
                     'token': default_token_generator.make_token(user),
-                    'protocol': 'http',
+                    'protocol': settings.PROTOCOL,
                     }
                     email = render_to_string(email_template_name, email_content)
                     try:

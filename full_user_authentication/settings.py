@@ -1,3 +1,4 @@
+from xml.dom.xmlbuilder import DOMBuilder
 from django.contrib.messages import constants as messages
 from pathlib import Path
 import os
@@ -115,6 +116,10 @@ USE_TZ = True
 
 # Email sending password
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+DOMAIN = '127.0.0.1:8000'
+SITE_NAME = 'Website'
+PROTOCOL = 'http'
 
 #settings for the user models
 AUTH_USER_MODEL = 'user_authentication.User'
