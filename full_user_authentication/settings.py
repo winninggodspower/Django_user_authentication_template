@@ -112,6 +112,8 @@ USE_L10N = True
 
 USE_TZ = True
 
+# Email sending password
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 #settings for the user models
 AUTH_USER_MODEL = 'user_authentication.User'
