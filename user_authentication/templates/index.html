@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block head %}
+    <title>Home</title>
+{% endblock %}
+
+{% block body %}
+    <h1>Home</h1>
+    {% for user in users %}
+    <p>{{user.username}}</p>
+    {% endfor %}
+    {% if user.is_authenticated %}
+    <h3>hello {{user.username}} 👋</h3>
+    {% endif %}
+{% endblock %}
