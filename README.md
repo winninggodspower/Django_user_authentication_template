@@ -13,9 +13,9 @@ This is a django user authentication project that you can always build upon.
 | -------|--------------|-----------------|
 | <img src="./screenshots/home.png" width="200"> | <img src="./screenshots/login.png" width="200"> | <img src="./screenshots/create_an_account.png" width="200"> |
 
-<!-- | Password reset | verifying page | Password change |
+| Password reset | verifying page | Password change |
 | ---------------|------------------|-----------------|
-| <img src="./screenshots/password_reset.png" width="200"> | <img src="./screenshots/verifying_page.png" width="200"> | <img src="./screenshots/change_password.png" width="200"> | -->
+| <img src="./screenshots/password_reset.png" width="200"> | <img src="./screenshots/verifying_page.png" width="200"> | <img src="./screenshots/change_password.png" width="200"> |
 
 
 ## Installation
