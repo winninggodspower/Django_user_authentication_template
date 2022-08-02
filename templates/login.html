@@ -10,15 +10,14 @@
     {% csrf_token %}
     
     {% for field in form %}
-    <div class="fieldWrapper">
-        {{ field.errors }}
+    <div class="fieldWrapper my-3">
         {{ field.label_tag }}
         {{ field }}
+        {{ field.errors }}
     </div>
-{% endfor %}
-    <input type="submit" value="Submit">
+    {% endfor %}
+    <p class="fw-bold">Forgot password? <a href="{% url 'password_reset' %}" class="text-decoration-none"> reset password</a></p>
+    <input class="btn btn-primary" type="submit" value="Submit">
 </form>
-<p><a href="{% url 'password_reset' %}">Forgot password?</a></p>
-<p><a href="{% url 'register' %}">Dont have account?</a></p>
 
 {% endblock %}

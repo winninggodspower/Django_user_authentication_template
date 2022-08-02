@@ -18,11 +18,11 @@ def email_available(email):
 
 class LoginForm(forms.Form):
     email = forms.EmailField(label='Email', max_length=70, validators= [validate_email])
-    username = forms.CharField(label='Username', max_length=100)
+    # username = forms.CharField(label='Username', max_length=100)
     password = forms.CharField(widget=forms.PasswordInput, min_length=6)
 
     email.widget.attrs.update({'class' : 'form-control', 'placeholder': 'email adress'})
-    password.widget.attrs.update({'class' : 'form-control mt-3','placeholder': 'password'})
+    password.widget.attrs.update({'class' : 'form-control','placeholder': 'password'})
 
 
 class RegisterForm(UserCreationForm):

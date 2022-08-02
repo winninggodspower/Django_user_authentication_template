@@ -10,6 +10,6 @@
     <p>{{user.username}}</p>
     {% endfor %}
     {% if user.is_authenticated %}
-    <h3>hello {{user.username}} 👋</h3>
+    <h3 class="text-capitalize">Hello {{user.username}} 👋</h3>
     {% endif %}
 {% endblock %}
