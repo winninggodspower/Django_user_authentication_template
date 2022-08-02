@@ -12,7 +12,7 @@ This is a django user authentication project that you can always build upon.
 ## Screenshots
 | Home | Log In | Create an account |
 | -------|--------------|-----------------|
-| <img src="./screenshots/home.png" width="200"> | <img src="./screenshots/login.png" width="200"> | <img src="./screenshots/create_an_account.png" width="200"> |
+| <img src="screenshots\home.png" width="200"> | <img src="./screenshots/login.png" width="200"> | <img src="./screenshots/create_an_account.png" width="200"> |
 
 | Password reset | verifying page | Password change |
 | ---------------|------------------|-----------------|
