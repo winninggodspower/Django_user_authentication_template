@@ -6,6 +6,7 @@ This is a django user authentication project that you can always build upon.
     - Registration Feature
     - Login Feature
     - Logout Feature
+    - Reset password
     - with boostrap enabled
 
 ## Screenshots
