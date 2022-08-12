@@ -12,11 +12,11 @@ This is a django user authentication project that you can always build upon.
 ## Screenshots
 | Home | Log In | Create an account |
 | -------|--------------|-----------------|
-| <img src="screenshots/home.png" width="200"> | <img src="./screenshots/login.png" width="200"> | <img src="./screenshots/create_an_account.png" width="200"> |
+| <img src="https://raw.githubusercontent.com/winninggodspower/Django_user_authentication_template/master/Screenshots/home.png" width="200"> | <img src="https://raw.githubusercontent.com/winninggodspower/Django_user_authentication_template/master/Screenshots/login.png" width="200"> | <img src="https://raw.githubusercontent.com/winninggodspower/Django_user_authentication_template/master/Screenshots/create_an_account.png" width="200"> |
 
 | Password reset | verifying page | Password change |
 | ---------------|------------------|-----------------|
-| <img src="./screenshots/password_reset.png" width="200"> | <img src="./screenshots/verifying_page.png" width="200"> | <img src="./screenshots/change_password.png" width="200"> |
+| <img src="https://raw.githubusercontent.com/winninggodspower/Django_user_authentication_template/master/Screenshots/password_reset.png" width="200"> | <img src="https://raw.githubusercontent.com/winninggodspower/Django_user_authentication_template/master/Screenshots/verifying_page.png" width="200"> | <img src="https://raw.githubusercontent.com/winninggodspower/Django_user_authentication_template/master/Screenshots/change_password.png" width="200"> |
 
 
 ## Installation
