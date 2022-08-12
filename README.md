@@ -64,11 +64,16 @@ myenv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### Start development server with the following commands
+### create data base table 
 
 ```` console
 python manage.py migrate
 python manage.py makemigrations
+````
+
+### Start development server with the following commands
+
+```` console
 python manage.py runserver
 ````
 
